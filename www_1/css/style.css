@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	color: black;
+}
+/* псевдоелементи */
+/* p:first-letter{ */
+/*p:first-line{
+	color: red;
+}*/
+/*p:before{
+	content: '123';
+	color: red;
+	font-size: 30px;
+}
+p:after{
+	content: '789';
+	color: red;
+}
+p::selection{
+	color: red;
+	background-color: black;
+}*/
+
+
+
+
+
+.box{
+	width: 700px;
+	height: 100px;
+	background-color: grey;
+	padding: 30px 20px;
+	margin: 40px;
+	border: 5px solid #000;
+}
+
+a{
+	background: green;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin: 20px;
+	padding: 10px;
+}
+
+
+/* псевдокласи */
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+a:active{
+	border-bottom: 1px dashed red;
+}
+a:visited{
+	color: blue;
+}
+li:first-child{
+	color: green;
+}
+li:last-child{
+	color: red;
+}
+li:nth-child(3){
+	color: blue;
+}

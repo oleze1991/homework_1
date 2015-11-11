@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(249,249,249);
+	width: 1000px; /* ширина основного блока */
+	height: 950px; 
+	margin: 5px auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+	border-left: 2px solid rgb(231,231,231);
+	border-right: 2px solid rgb(231,231,231);
+	font-family: sans-serif;
+}
+
+
+/* HEADER  шапка сайта*/
+header{
+	background: white;
+	font-size: 170%;
+	padding: 20px 0 20px 40px;
+}
+
+
+/* меню сайта*/
+menu{
+	background: white;
+}
+ul{
+	margin: 0 40px;
+	background-color: rgb(87,87,87); /* Цвет фона */
+}
+li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background-color: rgb(87,87,87); /* Цвет фона */
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+a{
+    color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 10px 10px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+menu li:hover{
+    background: #333; /* Цвет фона при наведении курсора мыши */
+    border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin: 0 -1px;
+}
+
+
+
+/* бокове меню сайта*/
+aside{
+    margin: 30px;
+    padding: 10px; /* Поля */
+    width: 230px; /* Ширина сайдбара */
+    float: left; /* Обтекание слева */
+}
+aside a{
+    color: rgb(110,110,110); /* Цвет ссылок */
+    padding: 10px 20px; /* Поля вокруг текста */
+    border: 1px solid rgb(231,231,231);
+}
+aside a:hover{
+    background: rgb(249,249,249); /* Цвет фона при наведении курсора мыши */
+	padding-left: 30px;
+	color: black;
+}
+section{
+	background-color: white;
+	font-size: 85%;
+}
+
+/* CONTENT */
+img{
+	margin-top: 40px;
+	padding: 40px;
+	width: 567px;
+	border: 1px solid rgb(231,231,231);
+}
+article{
+    margin: 40px 40px 40px 300px;
+    display: block; /* Блочный элемент */
+    color: rgb(110,110,110);
+    line-height: 24px;
+}
+
+/* FOOTER підвал сайта*/
+footer{
+	margin-top: -40px;
+	padding-top: 40px;
+	height: 90px;
+	background: white;
+	font-size: 85%;
+}
+footer ul{
+	background-color: rgb(231,231,231); /* Цвет фона */
+}
+footer li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background-color: rgb(231,231,231); /* Цвет фона */
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+footer a{
+    color: black; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 10px 10px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer li:last-child{
+	width: 400px;
+	text-align: right;
+}
