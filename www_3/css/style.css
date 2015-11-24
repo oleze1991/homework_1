@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.parent{
+	/*position: ;  static | relative | absolute | fixed */
+	position: relative;
+	background: grey;
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.box1{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	background: green;
+	z-index: 1;
+}
+.box2{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	background: white;
+}

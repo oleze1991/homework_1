@@ -1,0 +1,162 @@
+body{
+	background: url(../img/fone.png) no-repeat;
+	background-repeat: repeat-x;
+	font-family: sans-serif;
+}
+
+
+/* HEADER  шапка сайта*/
+header{
+	margin: 0 auto;
+	width: 1000px;
+	background: white;
+	box-shadow: 0 0 10px #666; /* Параметры тени */
+	font-family: cursive;
+	color: rgb(18,138,167);
+}
+.palma{
+	width: 185px;
+	float: left;
+}
+h2{
+	padding-top: 50px;
+	font-size: 170%;
+}
+.contactu{
+	float: right;
+	margin-top: -70px;
+	margin-right: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.con{
+	padding-left: 200px;
+}
+.coun{
+	padding-top: 30px;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+}
+.country{
+	display: inline-block;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+.country img{
+	height: 40px;
+	width: 40px;
+	border-radius: 100px; /* Радиус скругления */
+    border: 1px solid black; /* Параметры рамки */
+}
+header img{
+	width: 1000px;
+	margin-bottom: -7px;
+}
+
+
+/* меню сайта*/
+menu{
+	margin: 0 auto;
+	width: 1000px;
+	box-shadow: 0 0 10px #666; /* Параметры тени */
+}
+.nav7, .nav7 ul {
+  background: rgb(52,52,52);
+  box-shadow: 0 0 10px #666; /* Параметры тени */
+}
+.nav7 { /* подменю перемещается относительно меню */
+  position: relative;
+  width: 100%;
+  height: 33px;
+}
+.nav7 ul { /* подменю находится вне потока */
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+.nav7 li:hover ul { /* подменю будет показано, если курсор наведён на пункт меню с выпадающем списком */
+  display: block;
+}
+.nav7 li {
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  padding-top: 2px;
+}
+.nav7 ul li {
+  display: block;
+  text-align: left;
+}
+.nav7 a {
+	width: 130px;
+  display: block;
+  padding: 7px 0;
+  color: #fff;
+  text-decoration: none;
+}
+.nav7 ul a {
+  padding: 3px 10px;
+}
+.nav7 li:hover {
+  background: rgb(100,100,100);
+}
+
+
+
+
+
+
+
+/* основний контент */
+.fon {
+	width: 1000px;
+	overflow: hidden; /* чтобы лишее обрезалось */
+	margin: 0 auto;
+	box-shadow: 0 5px 10px #333;
+	line-height: 1.5;
+}
+.leftnews {
+	width: 20%;
+	float: left;
+	background: rgb(237,238,240);
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.leftnews div{
+	padding: 10px;
+}
+div h3{
+	text-align: center;
+}
+.content {
+	width: 60%;
+	float: left;
+	background: white;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.content div{
+	padding: 10px;
+}
+.rightnews {
+	width: 20%;
+	float: left;
+	background: rgb(237,238,240);
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.rightnews div{
+	padding: 10px;
+}
+
+
+
+/* підвал */
+.copy{
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	padding: 10px;
+}
