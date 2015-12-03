@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body{
+	font-family: 'Helvetica Neue Regular', Tahoma, sans-serif;
+	background-image: url(../img/fon_5.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+
+}
+
+.wrapper{
+	width: 100%;
+	/*margin: 50px auto;*/
+}
+
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	width: 100%;
+}
+
+/* меню сайта */
+menu{
+	background-color: rgb(0,0,250);
+	padding-left: 455px;
+
+}
+
+menu li{
+	float: left;
+	list-style: none;
+}
+
+menu a{
+	padding: 0 15px;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	color: rgb(30,200,250);
+	font-size: 14px;
+}
+
+menu a:hover{
+	background-color: rgb(30,200,250);	
+	color: white;
+}
+li > img{
+	height: 33px;
+	padding-top: 5px;
+}
+
+
+
+/*форма входу*/
+.v1{
+	height: 60px;
+	margin: 2px auto;
+	padding: auto;
+	line-height: 60px;
+	font-size: 24px;
+	text-align: center;
+	background-color: rgba(20,20,20,0.7);
+}
+.v2{
+	height: 90%;
+	padding-top: 15px;
+	background-color: rgba(20,20,20,0.7);
+	font-size: 14px;
+}
+.vhid{
+	width: 560px;
+	height: 615px;
+	margin: 7% auto;
+}
+
+.v2 input{	
+	margin: 8px 0;
+	padding-left: 16px;
+	width: 255px;
+	height: 35px;
+	background-color: black;
+	border-width: 0;
+	color: white;
+}
+.v2 .f,
+.v2 .l_f{
+	
+
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e5694+0,2989d8+100,207cca+100,7db9e8+100,207cca+100,2d4478+100 */
+	background: #3e5694; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3e5694 0%, #2989d8 100%, #207cca 100%, #7db9e8 100%, #207cca 100%, #2d4478 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #3e5694 0%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2d4478 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #3e5694 0%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2d4478 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e5694', endColorstr='#2d4478',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+.v2 .f{
+	padding-left: 5px;
+	width: 35px;
+	border-radius: 5px 0 0 5px;
+}
+
+.v2 .l_f{
+	margin-left: -5px;
+	padding-left: 0;
+	width: 235px;
+	border-radius: 0 5px 5px 0;
+}
+hr{
+	display: table;
+	float: left;
+	width: 119px;
+	margin: 30px 0;
+	color: black;
+}
+form > p{
+	display: table;
+	float: left;
+	margin: 23px 5px;
+	padding-top: 0;
+}
+#send{
+	height: 15px;
+	width: 15px;
+	margin: 20px 0;
+}
+.v2 div input{
+	margin: 7px 0;
+	width: 30px;
+}
+
+.v2 input:hover{
+	background-color: #00F;
+	box-shadow: 0 0 10px white;
+}
+
+form{
+	margin: auto;
+	padding-top: 20px;
+	width: 275px;
+	height: 300px;
+}
+
+.v2 .greate{
+	background-color: rgb(53,163,202);
+	width: 60%;
+	padding-left: 0;
+	margin: 0 20%;
+	border-radius: 5px;
+}
+
+span{
+	display: block;
+	margin: 10px -20px;
+	padding: 0;
+	height: 50px;
+	width: 310px;
+	text-align: center;
+	font-size: 11px;
+	line-height: 20px;
+}
