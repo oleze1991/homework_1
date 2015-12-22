@@ -1,0 +1,424 @@
+body{
+	background-color: #cdf;
+}
+
+.sait{
+	width: 1000px;
+	overflow: hidden; /* чтобы лишее обрезалось */
+	margin: 10px auto 0 auto;
+	background-color: white;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+/*шапка сайту */
+header{
+	width: 100%;
+	/*margin: 50px auto;*/
+}
+
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.h li{
+	display: block;
+	float: left;
+	line-height: 23px;
+	font-size: 20px;
+	color: #5e696d;
+}
+.h div img{
+	display: block;
+	float: left;
+	margin-left: 3px;
+}
+.h > li:last-child{
+	display: block;
+	float: left;
+	margin: -6px 0 0 15px;
+}
+ul ul li{
+	padding-left: 7px;
+}
+li > img{
+	display: block;
+	float: left;
+	padding-top: 3px;
+	color: #97a2a6;
+}
+ul > ul > li:first-child{
+	padding-left: 5px;
+}
+ul > ul > li:nth-child(3),
+ul > ul > li:nth-child(4),
+ul > ul > li:nth-child(5),
+ul > ul > li:nth-child(6){
+	line-height: 20px;
+}
+ul > ul > li:nth-child(5){
+	padding-left: 3px;
+}
+.h > ul > li:nth-child(6) > a{
+	padding-left: 15px;
+}
+.h > ul > li > a:hover{
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+/*
+.h > ul > li:nth-child(6) > a{
+	padding-left: 15px;
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+*/
+input{
+	width: 105px;
+	height: 15px;
+	padding: 0 3px;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+.h li a{
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.h{
+	margin: 20px 45px 8px 45px;
+	height: 25px;
+	list-style-type: none;
+}
+ul ul{
+	float: left;
+	margin-left: 6px;
+	margin-top: -3px;
+	width: 495px;
+	height: 25px;
+	border-radius: 5px; 
+	list-style-type: none;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6787+0,0d3458+100 */
+	background: #1f6787; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #1f6787 0%,#0d3458 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 ); /* IE6-9 */
+}
+.h ul li div{
+	float: left;
+	content: '';
+	width: 2px;
+	height: 10px;
+	margin-top: 8px;
+	margin-left: 1px; 
+	border-left: 2px solid white;
+}
+div > nav{
+	display: block;
+	margin: 0 45px;
+}
+
+
+
+
+/* ГОЛОВНЕ МЕНЮ*/
+.h_menu{
+	margin: 0 0 0 44px;
+	width: 911px;
+	height: 33px;
+	border-radius: 4px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,4d5663+0,000000+100 */
+	background: #b5bdc8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b5bdc8 0%, #4d5663 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #b5bdc8 0%,#4d5663 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #b5bdc8 0%,#4d5663 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.h_menu ul{
+	margin-left: 123px;
+}
+.h_menu ul li{
+	float: left;
+	height: 25px;
+	margin-top: 3px;
+	margin-left: 17px;
+	padding: 0 7px;
+	line-height: 27px;
+	list-style: none;
+}
+.h_menu li a{
+	color: #b1bcc0;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.h_menu a:hover{
+	color: white;
+}
+.h_menu li:hover{
+	border-radius: 20px;
+	line-height: 27px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6787+0,0d3458+100 */
+	background: #1f6787; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #1f6787 0%,#0d3458 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 ); /* IE6-9 */
+}
+.h_menu div{
+	color: white;
+}
+div span{
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	padding-left: 5px;
+
+}
+span img{
+	margin-left: 50px;
+}
+.h_menu div span:nth-child(3){
+	padding-left: 2px;
+	color: #0d5a8f;
+	line-height: 32px;
+}
+.h_menu div span:nth-child(4){
+	padding-left: 15px;
+}
+.h_menu div span:nth-child(5){
+	padding-left: 10px;
+	color: #0d5a8f;
+	line-height: 32px;
+}
+
+
+
+
+/* основний контент */
+.leftnews {
+	width: 190px;
+	float: left;
+	margin-left: 44px;
+	/*
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;*/
+	/*text-transform: uppercase;
+	letter-spacing: 5px;*/
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 12px;
+}
+.leftnews img{
+	height: 23px;
+	margin-left: -40px;
+	margin-top: -10px;
+	z-index: 5;
+}
+.leftnews > div,
+.rightnews > div{
+	margin-top: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+	line-height: 25px;
+	width: 150px;
+	padding-left: 30px;
+	background: url(../img/ii.png) no-repeat;
+	background-size: 25px;
+	color: #114165;
+}
+.leftnews ul:nth-child(2),
+.rightnews ul:nth-child(2){
+	margin-top: 14px;
+}
+.leftnews nav,
+.rightnews nav{
+	margin-top: 1px;
+	padding-left: 30px;
+	width: 120px;
+	border: 1px solid black;
+	border-radius: 15px;
+	line-height: 25px;
+	background: url(../img/r.png) no-repeat;
+	background-size: 28px;
+	color: #114165;
+}
+.leftnews li{
+	list-style-type: circle;
+}
+.leftnews li a{
+	text-decoration: none;
+	color: #114165;
+}
+.rightnews li{
+	list-style-type: none;
+	color: #114165;
+}
+.leftnews li{
+	margin-left: 55px;
+	line-height: 25px;
+}
+.content {
+	width: 525px;
+	float: left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e7e8+0,94a7b0+100 */
+	background: #e5e7e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e5e7e8 0%, #94a7b0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #e5e7e8 0%,#94a7b0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #e5e7e8 0%,#94a7b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#94a7b0',GradientType=0 ); /* IE6-9 */
+	/*
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;*/
+}
+.content div{
+	margin: 12px 12px;
+}
+.content div nav{
+	display: inline-block;
+	margin: 2px 0 20px 0;
+	width: 164px;
+	text-align: center;
+}
+.content nav:first-line{
+	color: blue;
+}
+p:last-child{
+	color: blue;
+	font-style: italic;
+}
+.content img{
+	height: 130px;
+	width: 136px;
+	border-radius: 10px;
+}
+.rightnews {
+	width: 150px;
+	float: left;
+	margin-left: 12px;
+	/*
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;*/
+	font-size: 13px;
+}
+.rightnews nav{
+	width: 105px;
+	margin-left: 15px;
+}
+.rightnews > input{
+	height: 30px;
+	width: 85px;
+	margin: 15px 20px;
+	border-radius: 20px;
+	line-height: 25px;
+	color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6787+0,0d3458+100 */
+	background: #1f6787; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #1f6787 0%,#0d3458 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 ); /* IE6-9 */
+}
+.rightnews li{
+	margin-left: 15px;
+	line-height: 25px;
+}
+.rightnews li > input{
+	height: 10px;
+	width: 20px;
+}
+.rightnews ul:nth-child(3){
+	margin-top: 12px;
+}
+.rightnews ul:nth-child(3) li:nth-child(2){
+	margin-top: 2px;
+}
+
+
+
+
+
+
+/* підвал */
+.partner{
+	margin: 10px 120px;
+}
+.partner div{
+	float: left;
+}
+.partner div:first-child{
+	padding: 16px 0 10px 31px;
+}
+.partner div:nth-child(2) img{
+	margin: 16px 0 10px -8px;
+}
+.partner div:nth-child(3) img{
+	margin: 17px 0 10px -2px;
+}
+.partner div:nth-child(4) img{
+	margin: 16px 0 10px -2px;
+}
+.partner div:nth-child(5) img{
+	margin: 18px 0 10px -12px;
+}
+.partner div:nth-child(6) img{
+	margin: 15px 0 10px -10px;
+}
+.partner div:nth-child(7) img{
+	margin: 17px 0 10px -12px;
+}
+.partner div:last-child img{
+	margin: 24px 0 10px -2px;
+}
+.copy{
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	padding: 10px;
+}
+.f_menu{
+	margin: -2px 45px;
+	width: 908px;
+	height: 102px;
+	background-color: #046;
+}
+.f_menu ul{
+	margin: 0 298px;
+	padding-top: 10px;
+}
+.f_menu li{
+	float: left;
+	list-style-type: none;
+	margin: -2px 11px;
+}
+.f_menu ul li a{
+	color: #ccd;
+	text-decoration: none;
+	font-size: 12px;
+}
+.f_menu ul div{
+	float: left;
+	content: '';
+	width: 2px;
+	height: 11px;
+	margin-top: 3px;
+	border-left: 2px solid #ccd;
+}
+.f_menu ul li:last-child{
+	margin-right: 0;
+}
+.f_menu a:hover{
+	color: #52abcb;
+}
+.f_menu > div{
+	margin: 30px 0 0 376px;
+	color: red;
+	font-size: 10px;
+}
